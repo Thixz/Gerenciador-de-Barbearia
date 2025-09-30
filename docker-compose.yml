@@ -4,10 +4,10 @@ services:
     container_name: barberboss-mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: "@Password123"
+      MYSQL_ROOT_PASSWORD: "@Password1234"
       MYSQL_DATABASE: barberbossdb
     ports:
-      - "3306:3306"
+      - "3305:3305"
 
   api:
     build:
